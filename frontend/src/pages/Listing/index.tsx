@@ -36,7 +36,7 @@ function Listing() {
     return (
         <>
 
-            <Pagination />
+            <Pagination page={page}/>
 
             <div className='container'>
                 <div className='row'>
